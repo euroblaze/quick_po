@@ -1,7 +1,7 @@
 Quick PurchaseOrder CSV Exporter
 
 ## Overview
-This document describes the functional requirements for an Odoo v15 module that provides functionality to export line items from single or multiple PurchaseOrders (POs) into a CSV file with just two columns. The CSV can then be saved to the desktop. The module also features error checking for missing vendor article numbers and limits on batch exports to prevent performance degradation.
+This specificatoin describes the functional requirements for an Odoo v15 module to export line items from single or multiple PurchaseOrders (POs) into a CSV file with just two columns. The CSV can then be saved to the desktop. The module also features error checking for missing vendor article numbers and limits on batch exports to prevent performance degradation.
 
 ## Functional Requirements
 
@@ -9,8 +9,10 @@ This document describes the functional requirements for an Odoo v15 module that 
 
 On a single order form view, the module will add an option under the Print menu to "Export Quick PurchaseOrder (CSV)". Upon clicking this option, the following actions occur:
 
-- The module exports the line items from the purchase order to a CSV file. The CSV includes two columns: Vendor Article Number and Quantity.
+- The module exports the line items from the purchase order to a CSV file. 
+- The CSV includes two columns: Vendor Article Number and Quantity.
 - If any line items in the order do not have a vendor article number, an error message is issued: "Following products do not have this supplier set up with an article number (and possibly other purchase related product information). Please fill this information in, and attempt to generate the Quick PO CSV again."
+    - List the deficient products which do not have the supplier information.
 
 ### 2. Multiple Orders Export
 
