@@ -1,4 +1,4 @@
-# Odoo Module Functional Specification - Quick PurchaseOrder CSV Exporter
+Quick PurchaseOrder CSV Exporter
 
 ## Overview
 This document describes the functional requirements for an Odoo v15 module that provides functionality to export line items from single or multiple PurchaseOrders (POs) into a CSV file with just two columns. The CSV can then be saved to the desktop. The module also features error checking for missing vendor article numbers and limits on batch exports to prevent performance degradation.
