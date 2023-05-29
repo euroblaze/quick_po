@@ -7,8 +7,8 @@
        To export multiple purchase order
     """,
 	'version': '15.0.1.0.0',
-	'author': 'Ensigncode Software',
-	'website': 'https://www.ensigncode.com',
+	'author': 'Simplify-ERP™',
+	'website': 'https://simplify-erp.de',
 	'license': 'OPL-1',
 	'depends': [
 		'purchase',
@@ -20,5 +20,5 @@
 		'views/product_supplierinfo_views.xml',
 	],
 	'installable': True,
-	'application': True,
+	'application': False,
 }

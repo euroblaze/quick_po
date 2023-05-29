@@ -11,3 +11,6 @@ This module lets you export purchase order with article number attached to suppl
 5. Click on "Action" button > Export Quick PurchaseOrder (CSV)
 6. File downloaded with product's article number and it's quantity
 7. Restriction: Please select 10 or less than 10 PO at a time to export it into csv file
+
+## Translations
+At the upper top right corner -> Click on the login user name -> Go To the Preferences Option -> and from the pop up select the language that want to switch.
