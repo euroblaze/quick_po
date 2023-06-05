@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+web_export_po.access_po_report,access_po_report,web_export_po.model_po_report,base.group_user,1,1,1,1
